@@ -1,0 +1,4 @@
+interface:
+  display_name: "Graduation Thesis Adapter"
+  short_description: "Template adaptation and evidence handoff generator for graduation thesis workflows"
+  default_prompt: "Use $graduation-thesis-adapter to normalize my thesis template, build evidence packs with appropriate noise profile, and generate a full handoff bundle including replace_boundaries for composer."

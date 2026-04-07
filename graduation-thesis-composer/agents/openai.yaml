@@ -1,0 +1,4 @@
+interface:
+  display_name: "Graduation Thesis Composer"
+  short_description: "Thesis drafting, rewrite-scope generation, and hotspot rewrite workflow from adapter outputs"
+  default_prompt: "Use $graduation-thesis-composer to validate adapter handoff, generate rewrite_scope from replace_boundaries, draft target chapters, and produce hotspot rewrite matrices for similarity/AIGC reports."
