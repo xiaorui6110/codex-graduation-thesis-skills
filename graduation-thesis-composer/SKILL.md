@@ -61,6 +61,10 @@ Classify task as:
 
 Use adapter outputs first. If unavailable, gather the minimum evidence required from repository files.
 
+Before batch drafting from a handoff package, run:
+
+- `python graduation-thesis-composer/scripts/composer_handoff_check.py --handoff-dir <handoff_dir>`
+
 ### 2A. Confirm working draft safety
 
 - if editing an existing draft file, keep protected backup path
@@ -74,6 +78,10 @@ For each target section:
 - convert evidence into thesis-style narrative
 - keep paragraph logic explicit and conservative
 - avoid generic filler and marketing language
+
+When repeated multi-section drafting is needed, run:
+
+- `python graduation-thesis-composer/scripts/batch_chapter_draft_from_handoff.py --handoff-dir <handoff_dir> --output <draft.md>`
 
 ### 4. Normalize globally
 

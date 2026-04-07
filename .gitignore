@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+
+# Local test and build artifacts
+*.log
+*.tmp
+*.bak
+
+# Generated thesis artifacts
+*.docx
+*.pdf
+*.zip
+
+# Prompt or handoff outputs generated during local runs
+output/
+outputs/
+dist/
+build/

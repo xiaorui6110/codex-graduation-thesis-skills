@@ -68,11 +68,11 @@ Before writing:
 
 When the heading structure is still unclear, run:
 
-- `python .agents/skills/graduation-thesis-adapter/scripts/template_outline_extractor.py --input <template.md>`
+- `python graduation-thesis-adapter/scripts/template_outline_extractor.py --input <template.md>`
 
 When the user first needs a paste-ready structure, run:
 
-- `python .agents/skills/graduation-thesis-adapter/scripts/thesis_scaffold.py --template <template.md>`
+- `python graduation-thesis-adapter/scripts/thesis_scaffold.py --template <template.md>`
 
 ### 3. Ground the requested content
 
@@ -84,8 +84,8 @@ Before drafting or rewriting:
 
 When the repository is large or the writing target spans multiple modules, run:
 
-- `python .agents/skills/graduation-thesis-adapter/scripts/repo_evidence_index.py --root .`
-- `python .agents/skills/graduation-thesis-adapter/scripts/section_evidence_pack.py --section "<chapter title>" --root .`
+- `python graduation-thesis-adapter/scripts/repo_evidence_index.py --root .`
+- `python graduation-thesis-adapter/scripts/section_evidence_pack.py --section "<chapter title>" --root .`
 - if chapter focus is known, add `--focus "keyword1,keyword2"` or `--focus-file <keywords.txt>` to narrow candidates
 
 ### 4. Decide how much to preserve
@@ -98,7 +98,7 @@ If an existing draft is present:
 
 When the audit is repetitive, run:
 
-- `python .agents/skills/graduation-thesis-adapter/scripts/draft_audit.py --input <draft.md>`
+- `python graduation-thesis-adapter/scripts/draft_audit.py --input <draft.md>`
 
 ### 5. Draft conservatively
 
